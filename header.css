@@ -87,6 +87,10 @@ header{
     -webkit-box-shadow: 0px 0px 100px 0px rgba(0, 0, 0, 1);
     -moz-box-shadow: 0px 0px 100px 0px rgba(0, 0, 0, 1);
     box-shadow: 0px 0px 100px 0px rgba(0, 0, 0, 1);
+
+    /* Додати прокручування */
+    overflow-y: auto; /* Прокручування по вертикалі, якщо контент більший за висоту */
+    max-height: 90vh; /* Максимальна висота 90% від висоти екрану */
 }
 body.no-scroll {
     overflow: hidden; /* Заборона прокручування */
